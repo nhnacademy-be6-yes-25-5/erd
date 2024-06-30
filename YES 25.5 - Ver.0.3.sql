@@ -133,8 +133,7 @@ CREATE TABLE `book` (
 	`review_count`	int	NOT NULL,
 	`hits_count`	int	NOT NULL,
 	`search_count`	int	NULL,
-	`book_isbn`	VARCHAR(13)	NOT NULL	COMMENT 'unique',
-	'book_is_packable'	BOOLEAN 	NOT NULL
+	`book_isbn`	VARCHAR(13)	NOT NULL	COMMENT 'unique'
 );
 
 DROP TABLE IF EXISTS `review`;
